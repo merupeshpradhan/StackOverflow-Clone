@@ -1,6 +1,7 @@
 
 .left-container{
-    width: 15%;
+    width: 20vw;
+    background-color: white !important;
     height: 100vh;
 }
 .public{

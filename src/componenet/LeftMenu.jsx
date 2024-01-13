@@ -11,7 +11,7 @@ function LeftMenu() {
     <div>
       <div className="left-container d-flex justify-content-center ">
         <div>
-          <div className="d-flex flex-column mt-5">
+          <div className="d-flex flex-column mt-1">
             <div clas> <span className="me-3"><GoHome /></span> Home</div>
             <div className="dropdown mt-4">
               {/* <button
