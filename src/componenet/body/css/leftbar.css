@@ -1,0 +1,45 @@
+.leftbar{
+    display: flex;
+    padding: 20px 0px 10px 70px;
+    height: 100%;
+    flex: 0.5;
+    max-width: 250px;
+    border-right: 1px solid #ddd;
+}
+.leftbar-container{
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+}
+.leftbar-option{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.leftbar-option{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+p{
+    margin: 5px 5px;
+}
+p:hover{
+    border-right: 3px solid rgba(245,162,9);
+    color: rgba(245,162,9);
+    cursor: pointer;
+    width: 100px;
+}
+p:active{
+    border-right: 5px solid rgba(245,162,9);
+    color: rgba(245,162,9);
+    cursor: pointer;
+}
+.MuiSvgIcon-root{
+    margin-right: 5px;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}

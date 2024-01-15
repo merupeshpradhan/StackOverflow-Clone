@@ -1,0 +1,27 @@
+.rightbar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  padding: 30px 10px;
+  flex: 0.3;
+  flex-direction: column;
+}
+
+.rightbar-conatianer {
+  margin: 0px 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.linked-lists {
+  padding: 15px;
+}
+.linked-list {
+  margin-bottom: 1rem;
+}
+
+.related-lists {
+  padding: 15px;
+}
+.related-list {
+  margin-bottom: 1rem;
+}
