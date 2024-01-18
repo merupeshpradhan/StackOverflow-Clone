@@ -172,3 +172,9 @@ a:hover {
   color: rgb(244 128 36 / 91%);
   border-bottom: 2px solid rgb(244 128 36 / 91%);
 }
+
+.container-buttom-icon{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}

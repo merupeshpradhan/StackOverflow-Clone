@@ -2,6 +2,9 @@ import React from "react";
 import "./css/middle.css";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
 import RemoveRoundedIcon from "@mui/icons-material/RemoveRounded";
+import BookmarkIcon from '@mui/icons-material/Bookmark';
+import CommentOutlinedIcon from '@mui/icons-material/CommentOutlined';
+import { PiShareFatLight } from "react-icons/pi";
 
 function middle(props) {
   console.log(props.result);
@@ -94,6 +97,15 @@ function middle(props) {
               i tried to run the viual studio code in administrator mode
               ,thinking that the problem was a matter of privilages.But the
               error is throwing anyway.
+            </div>
+          </div>
+          <div className="container-buttom-icon">
+            <div className="icn-left">
+                  <BookmarkIcon style={{color:"rgb(244 128 36 / 91%)"}}/>
+            </div>
+            <div className="icn-right">
+              <PiShareFatLight style={{fontSize:"25px",marginRight:"10px"}}/>
+              <CommentOutlinedIcon/>
             </div>
           </div>
         </div>
