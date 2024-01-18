@@ -11,6 +11,8 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
 }
 
 
@@ -54,7 +56,6 @@ p:active{
     background-color: #ddd;
 }
 .login-register{
-    margin-top: 35rem; 
     margin-left:-50px ;
 }
 .login{

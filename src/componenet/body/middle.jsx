@@ -39,10 +39,10 @@ function middle(props) {
           <div className="hr"></div>
           <div className="detials">
             <div className="owner-detial">
-              <div className="detial">
+              <div className="detial" style={{display:"flex",flexDirection:"row",alignItems:"center"}}>
                 <img src={props.result.owner.profile_image} className="prfl" />
+                <div className="detial" style={{marginLeft:"10px"}}>{props.result.owner.display_name}</div>
               </div>
-              <div className="detial">{props.result.owner.display_name}</div>
               <div
                 className="detial"
                 style={{
@@ -59,7 +59,9 @@ function middle(props) {
             <div className="date-detial">
               <div className="yr-mnth">Asked 2 years,1 month ago</div>
               <div className="day">Active 21 Days ago</div>
-              <div className="viwed">viewed {props.result.view_count} times</div>
+              <div className="viwed">
+                viewed {props.result.view_count} times
+              </div>
             </div>
           </div>
         </div>
@@ -69,17 +71,27 @@ function middle(props) {
               Inside of visual studio code ,i'm trying to execute a script.bat
               from the command line ,but i'm getting the following error.
             </div>
-            <div className="question" style={{backgroundColor:"rgba(0,0,0,0.045)",padding:"15px"}}>
+            <div
+              className="question"
+              style={{ backgroundColor: "rgba(0,0,0,0.045)", padding: "15px" }}
+            >
               File C:\Theses_Repo\train-cnn\environment\scripts\activate.psl
               cannotloaded because running scripts is disabled on this system
             </div>
             <div className="question">
               Afeter reading{" "}
               <span style={{}}>
-                <a href="#" style={{ color: "rgb(244 128 36 / 91%)",textDecoration:"underline" }}>
+                <a
+                  href="#"
+                  style={{
+                    color: "rgb(244 128 36 / 91%)",
+                    textDecoration: "underline",
+                  }}
+                >
                   this
                 </a>
-              </span> i tried to run the viual studio code in administrator mode
+              </span>{" "}
+              i tried to run the viual studio code in administrator mode
               ,thinking that the problem was a matter of privilages.But the
               error is throwing anyway.
             </div>
@@ -93,9 +105,9 @@ function middle(props) {
               20 Answers
             </div>
             <div className="filter">
-              <div className="option" >
+              <div className="option">
                 {" "}
-                <a href="#" >Votes</a>
+                <a href="#">Votes</a>
               </div>
               <div className="option">
                 <a href="#">Oldest</a>
