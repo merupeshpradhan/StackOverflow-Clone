@@ -1,4 +1,3 @@
-// import './App.css'
 import Navbar from "./componenet/navbar/Navbar.jsx";
 import Index from "./componenet/body/index.jsx";
 
